@@ -235,6 +235,16 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+.products {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.products-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .products-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -244,11 +254,15 @@ img {
   color: var(--IRIS);
   background-color: var(--CLOUD);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .products-button:hover,
 .products-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .layout-title {
   font-weight: 500;
