@@ -69,11 +69,11 @@ img {
   color: var(--IRIS);
   margin-right: 76px;
 }
-header.container {
+.header > .container {
   display: flex;
 }
 .header-nav {
-  /* display: flex; */
+  display: flex;
   align-items: center;
 }
 .link {
@@ -108,12 +108,10 @@ header.container {
 
 .header-address {
   font-style: normal;
-  /* display: flex; */
 }
 .header-address-list {
   list-style: none;
   display: flex;
-  /* flex-wrap: nowrap; */
   gap: 40px;
 }
 .header-address-link {
