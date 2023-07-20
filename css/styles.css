@@ -270,10 +270,25 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVYBLUE);
+  margin-bottom: 8px;
 }
 .layout-index {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE);
+}
+.layout-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.layout-li {
+  width: calc((100%-48px) / 3);
+}
+.type {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
