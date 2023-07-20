@@ -36,7 +36,7 @@ img {
   overflow: hidden;
 }
 .header {
-  border-bottom: 1px solid #e7r9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -71,7 +71,7 @@ img {
 .header-logo-studio {
   color: var(--NAVYBLUE);
 }
-.header-menu-item {
+.header-menu-list {
   display: flex;
   gap: 40px;
 }
@@ -120,7 +120,7 @@ img {
   color: #ffffff;
   cursor: pointer;
   min-width: 169px;
-  height 56px;
+  height: 56px;
   border: none;
   border-radius: 4px;
 }
@@ -128,13 +128,23 @@ img {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
+.features {
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100%-72px) / 4);
+}
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVYBLUE);
+  margin-bottom: 8px;
 }
 .features-item-text {
   font-size: 16px;
@@ -142,6 +152,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--SLATE);
 }
+.tasks {
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+}
+
 .tasks-title {
   font-size: 36px;
   line-height: 1.11;
@@ -149,6 +165,10 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--NAVYBLUE);
+  margin-bottom: 72px;
+}
+.task-item {
+  width: calc((100%-48px) / 3);
 }
 .team {
   background-color: #f4f4fd;
