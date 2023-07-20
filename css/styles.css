@@ -45,6 +45,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS);
+  margin-right: 76px;
 }
 .header-nav {
   display: flex;
@@ -63,9 +64,6 @@ img {
 }
 .link:focus {
   color: #404bbf;
-}
-.header-logo {
-  margin-right: 76px;
 }
 .header-logo-studio {
   color: var(--NAVYBLUE);
